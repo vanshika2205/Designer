@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanshika Bansal — Product Designer &amp; Design Engineer</title>
+  <meta name="description" content="Portfolio of Vanshika Bansal — Product Designer & Design Engineer. Specialized in healthcare UX, clinical logbooks, campus marketplaces, enterprise design systems, and full-stack web applications.">
+  <meta name="keywords" content="Vanshika Bansal, Product Designer, Design Engineer, UI/UX Designer, Next.js, React, Figma Design Systems, MedMitra, MedLog, Purani Kitaab, Whirlpool">
+  <meta name="author" content="Vanshika Bansal">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vanshika Bansal — Product Designer &amp; Design Engineer">
+  <meta property="og:description" content="Designing and engineering digital products with systems rigor, human empathy, and production code.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%236366f1'/><text x='50%' y='64%' font-size='48' font-weight='700' fill='white' text-anchor='middle' font-family='sans-serif'>VB</text></svg>">
+</head>
+<body>
+
+  <!-- Subtle Ambient Grid Background -->
+  <div class="bg-subtle-grid" aria-hidden="true"></div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-msg-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- ====================================================================
+       RECRUITER-READY HEADER
+       ==================================================================== -->
+  <header class="header-wrapper" id="siteHeader">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" class="nav-brand-profile">
+          <div class="avatar-badge">VB</div>
+          <div class="profile-meta">
+            <span class="profile-name">Vanshika Bansal</span>
+            <span class="profile-role">Product Designer &bull; Design Engineer</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#work" class="nav-item-link active">Case Studies</a></li>
+          <li><a href="#experience" class="nav-item-link">Experience</a></li>
+          <li><a href="#about" class="nav-item-link">About &amp; Skills</a></li>
+          <li><a href="https://www.linkedin.com/in/vanshika-bansal-627602324/" target="_blank" rel="noopener noreferrer" class="nav-item-link">LinkedIn ↗</a></li>
+          <li><a href="https://github.com/vanshika2205/CODING" target="_blank" rel="noopener noreferrer" class="nav-item-link">GitHub ↗</a></li>
+        </ul>
+
+        <div class="nav-right-actions">
+          <a href="assets/Vanshika_Bansal_Resume.pdf" target="_blank" class="btn-resume-nav" id="btnNavResume" title="View Latest 2-Page Resume PDF">
+            <span>Resume (PDF)</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <a href="#contact" class="btn-contact-header" id="btnNavContact">
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         HERO SECTION (High-Impact Candidate Positioning)
+         ==================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-status-tag">
+          <span class="status-pulse-dot"></span>
+          <span>Open to Product Design &amp; Frontend Roles &bull; 2026</span>
+        </div>
+
+        <h1 class="hero-headline">
+          Designing systems in Figma. <span style="color: #6366f1;">Shipping them in code.</span>
+        </h1>
+
+        <p class="hero-subheadline">
+          I'm <strong>Vanshika Bansal</strong> &mdash; a Product Designer &amp; Design Engineer based in New Delhi (B.Tech ICE, Bharati Vidyapeeth College of Engineering). With hands-on developer internship experience at <strong>Zetheta</strong>, <strong>Inamigos</strong>, and <strong>CodeAlpha</strong>, I bridge the gap between human empathy and production-grade software.
+        </p>
+
+        <div class="hero-cta-cluster">
+          <a href="#work" class="btn-primary-action" id="btnScrollToWork">
+            <span>View Case Studies (7)</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <a href="assets/Vanshika_Bansal_Resume.pdf" target="_blank" class="btn-secondary-action" id="btnHeroResume">
+            <span>📄 Download Resume (PDF)</span>
+          </a>
+          <button class="btn-secondary-action copy-email-btn" id="btnCopyEmailHero" title="Click to copy email">
+            <span>✉️ vanshikabansal887@gmail.com</span>
+          </button>
+          <a href="tel:+919773708081" class="btn-secondary-action" style="font-family: var(--font-mono); font-size: 0.85rem;">
+            <span>📞 +91 9773708081</span>
+          </a>
+        </div>
+
+        <!-- Recruiter Quick Summary Strip -->
+        <div class="recruiter-note-strip">
+          <div class="note-item">
+            <span class="dot">&bull;</span>
+            <span><strong>Education:</strong> B.Tech (ICE), Bharati Vidyapeeth College of Engineering, Delhi (2024&ndash;28)</span>
+          </div>
+          <div class="note-item">
+            <span class="dot">&bull;</span>
+            <span><strong>Experience:</strong> Web Dev Intern at Zetheta, Inamigos, CodeAlpha &bull; Faculty at BunktoBrains</span>
+          </div>
+          <div class="note-item">
+            <span class="dot">&bull;</span>
+            <span><strong>Technical Stack:</strong> Figma Variables, React.js, Next.js 14, Node.js, Express, MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SELECTED WORKS (2-Column Scannable Editorial Grid)
+         ==================================================================== -->
+    <section class="works-section" id="work">
+      <div class="container">
+        <div class="section-top-row">
+          <div class="section-title-wrap">
+            <h2>Featured Product Case Studies</h2>
+            <p>From deep healthcare research to enterprise design systems and campus marketplaces.</p>
+          </div>
+
+          <div class="filter-tabs-group" id="filterGroup">
+            <button class="filter-btn active" data-filter="all">All Projects (7)</button>
+            <button class="filter-btn" data-filter="healthcare">Healthcare &amp; Clinical</button>
+            <button class="filter-btn" data-filter="marketplace">Campus &amp; Marketplace</button>
+            <button class="filter-btn" data-filter="ecommerce">Enterprise E-Commerce</button>
+            <button class="filter-btn" data-filter="civic">Civic Tech</button>
+          </div>
+        </div>
+
+        <div class="case-study-grid" id="projectGrid">
+
+          <!-- 01. MedMitra (Featured Wide Card) -->
+          <article class="case-card featured-wide" data-category="healthcare" data-project="medmitra">
+            <div class="case-thumbnail-box" style="background: #091715;">
+              <img src="assets/projects/medmitra_p1.jpg" class="case-thumbnail-img" alt="MedMitra UX Case Study Cover" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">Healthcare &bull; Accessibility</span>
+                <span class="tag-platform">Dual-Sided Mobile App</span>
+                <span class="tag-platform">2026</span>
+              </div>
+              <h3 class="case-project-title">MedMitra &mdash; Elderly Medicine Adherence &amp; Caregiver Ecosystem</h3>
+              <p class="case-one-liner">
+                Redesigning medication tracking for chronic patients (60+) with calm Hinglish microcopy (&ldquo;Le li ✓&rdquo;), 56px touch targets, and a reassuring caregiver monitoring loop.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>WHO Adherence Framework &bull; Full-Screen Takeover Alert</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study (11 Pages)</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02. MedLog -->
+          <article class="case-card" data-category="healthcare" data-project="medlog">
+            <div class="case-thumbnail-box" style="background: #111417;">
+              <img src="assets/projects/medlog_mobile_p1.jpg" class="case-thumbnail-img" alt="MedLog Clinical Fieldnotes" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">Clinical Education</span>
+                <span class="tag-platform">Mobile &bull; Web App</span>
+              </div>
+              <h3 class="case-project-title">MedLog &mdash; Clinical Fieldnotes &amp; Competency Tracker</h3>
+              <p class="case-one-liner">
+                Ward-round case capture in 30 seconds with voice-to-text, 28/36 surgical competency tracking, and zero-app QR supervisor digital sign-offs.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>OSCE Active Recall &bull; App-Free Supervisor Sign-off</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03. Purani Kitaab -->
+          <article class="case-card" data-category="marketplace" data-project="puranikitaab">
+            <div class="case-thumbnail-box">
+              <img src="assets/projects/puranikitaab_p1.jpg" class="case-thumbnail-img" alt="Purani Kitaab Campus Marketplace" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">Campus Marketplace</span>
+                <span class="tag-platform">Responsive Web &bull; Mobile</span>
+              </div>
+              <h3 class="case-project-title">Purani Kitaab &mdash; P2P Campus Textbook Exchange</h3>
+              <p class="case-one-liner">
+                Enabling verified college students to trade textbooks at 62% savings with in-app campus map meetup routes and a 4-tier condition grading system.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>62% Student Savings &bull; Campus Map Meetup Route</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study (7 Pages)</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 04. Whirlpool -->
+          <article class="case-card" data-category="ecommerce" data-project="whirlpool">
+            <div class="case-thumbnail-box" style="background: #ffffff;">
+              <img src="assets/projects/whirlpool_homepage.jpg" class="case-thumbnail-img" alt="Whirlpool Enterprise E-Commerce Redesign" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">Enterprise E-Commerce</span>
+                <span class="tag-platform">Design System &bull; Web</span>
+              </div>
+              <h3 class="case-project-title">Whirlpool &mdash; E-Commerce &amp; Edge-Case Architecture</h3>
+              <p class="case-one-liner">
+                Designing 8 critical e-commerce states: out-of-stock alternative recommendations, ZIP delivery validation in checkout, and skeleton loading feedback.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>8 System States &bull; Out-of-Stock Recovery Engine</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study (8 States)</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 05. Civicly -->
+          <article class="case-card" data-category="civic" data-project="civicly">
+            <div class="case-thumbnail-box">
+              <img src="assets/projects/civicly_p1.jpg" class="case-thumbnail-img" alt="Civicly Civic Tech Dashboard" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">Civic Tech</span>
+                <span class="tag-platform">Dashboard &bull; Mobile</span>
+              </div>
+              <h3 class="case-project-title">Civicly &mdash; Hyperlocal Civic Issue Reporting</h3>
+              <p class="case-one-liner">
+                Replacing municipal phone delays with a map-based reporting interface where South Delhi residents track repairs with 92% resolution rates.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>92% Resolution Rate &bull; Transparent Repair Timeline</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study (7 Pages)</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 06. UniMate -->
+          <article class="case-card" data-category="marketplace" data-project="unimate">
+            <div class="case-thumbnail-box" style="background: #08090d;">
+              <img src="assets/projects/unimate_showcase.jpg" class="case-thumbnail-img" alt="UniMate Campus Builder App" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">Campus Community</span>
+                <span class="tag-platform">Mobile iOS &bull; Android</span>
+              </div>
+              <h3 class="case-project-title">UniMate &mdash; Campus Builder Matching &amp; Hackathons</h3>
+              <p class="case-one-liner">
+                A high-contrast mobile platform where IIT Delhi student developers connect, showcase side projects on &ldquo;The Build Board&rdquo;, and RSVP for hackathons.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>Swipeable Teaming &bull; 1-Tap Hackathon RSVP</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 07. JalSetu -->
+          <article class="case-card" data-category="ecommerce" data-project="jalsetu">
+            <div class="case-thumbnail-box">
+              <img src="assets/projects/jalsetu_p1.jpg" class="case-thumbnail-img" alt="JalSetu Water Tanker Booking" loading="lazy">
+            </div>
+            <div class="case-card-body">
+              <div class="case-meta-tags">
+                <span class="tag-discipline">On-Demand Utilities</span>
+                <span class="tag-platform">Web &bull; RWA Dashboard</span>
+              </div>
+              <h3 class="case-project-title">JalSetu &mdash; Water Tanker Booking &amp; Live GPS Tracking</h3>
+              <p class="case-one-liner">
+                On-demand water logistics for Delhi-NCR with 48-minute delivery times, pre-delivery BIS lab quality reports, and RWA society sump dashboards.
+              </p>
+              <div class="case-highlight-metric">
+                <span class="metric-icon">✦</span>
+                <span>48 Min Avg Delivery &bull; BIS Water Report Verification</span>
+              </div>
+              <div class="case-card-footer">
+                <span>Read Case Study (7 Pages)</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         WORK EXPERIENCE & INTERNSHIPS (From Resume)
+         ==================================================================== -->
+    <section class="experience-section" id="experience" style="padding: 4.5rem 0; border-top: 1px solid var(--border-subtle); background: rgba(255, 255, 255, 0.01);">
+      <div class="container">
+        <div style="margin-bottom: 2.5rem;">
+          <div class="tag-discipline" style="display: inline-block; margin-bottom: 0.65rem;">Track Record</div>
+          <h2>Professional Experience &amp; Internships</h2>
+          <p style="color: var(--text-secondary); font-size: 0.95rem;">Hands-on software development and community leadership roles.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+          <!-- 01. Zetheta -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <div style="font-size: 1.15rem; font-weight: 700; color: #ffffff;">Web Developer Intern &bull; Zetheta</div>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.35rem;">
+                Developed and maintained web applications as part of the Zetheta development team, implementing responsive layouts and reusable UI components.
+              </p>
+            </div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary-light); background: rgba(99, 102, 241, 0.1); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid rgba(99, 102, 241, 0.25);">June 2026</span>
+          </div>
+
+          <!-- 02. Inamigos -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <div style="font-size: 1.15rem; font-weight: 700; color: #ffffff;">Web Developer Intern &bull; Inamigos</div>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.35rem;">
+                Contributed to frontend and backend web development tasks within the Inamigos platform, optimizing API integration and data binding.
+              </p>
+            </div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary-light); background: rgba(99, 102, 241, 0.1); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid rgba(99, 102, 241, 0.25);">June 2026</span>
+          </div>
+
+          <!-- 03. CodeAlpha -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <div style="font-size: 1.15rem; font-weight: 700; color: #ffffff;">Web Developer Intern &bull; CodeAlpha</div>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.35rem;">
+                Built dynamic web development projects as part of the CodeAlpha virtual internship program, implementing modern CSS and state workflows.
+              </p>
+            </div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary-light); background: rgba(99, 102, 241, 0.1); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid rgba(99, 102, 241, 0.25);">June 2026</span>
+          </div>
+
+          <!-- 04. BunktoBrains -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <div style="font-size: 1.15rem; font-weight: 700; color: #ffffff;">Faculty Member (Remote) &bull; BunktoBrains</div>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.35rem;">
+                Created digital learning resources for Applied Mathematics, improving student engagement through tech-enabled instructional methods.
+              </p>
+            </div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); background: rgba(255, 255, 255, 0.04); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm);">Aug 2025 &ndash; Jan 2026</span>
+          </div>
+
+          <!-- 05. Campus Ambassador -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <div style="font-size: 1.15rem; font-weight: 700; color: #ffffff;">Campus Ambassador &bull; DevTown &amp; Wayspire</div>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.35rem;">
+                Championed developer events, hackathons, and technical workshops, increasing student participation across technical campus communities.
+              </p>
+            </div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); background: rgba(255, 255, 255, 0.04); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm);">Jan &ndash; Feb 2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABOUT ME & SKILLS (Full Resume Breakdown)
+         ==================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-bio-col">
+            <div class="tag-discipline" style="display: inline-block; margin-bottom: 0.85rem;">Design + Engineering</div>
+            <h2>Behind the design craft</h2>
+            <p>
+              I'm an engineering student at <strong>Bharati Vidyapeeth College of Engineering, Delhi</strong> (B.Tech, Instrumentation &amp; Control Engineering, Batch 2024&ndash;2028).
+            </p>
+            <p>
+              Having worked as a <strong>Full Stack Developer intern</strong> across multiple teams (Zetheta, Inamigos, CodeAlpha), I bring an uncommon advantage to product design teams: <strong>I speak fluent engineering</strong>. When I hand off a Figma file, it has accurate auto-layout, exact CSS token variables, realistic state variants (hover, active, loading, empty, error), and zero architectural guesswork for developers.
+            </p>
+            <p>
+              Whether designing accessible medication apps for elderly Indian parents or building React/Next.js platforms with REST APIs, my goal is always clear: <strong>build user-centric software that scales gracefully.</strong>
+            </p>
+
+            <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="assets/Vanshika_Bansal_Resume.pdf" target="_blank" class="btn-primary-action">
+                <span>Download Resume (PDF)</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              </a>
+              <a href="https://github.com/vanshika2205/CODING" target="_blank" rel="noopener noreferrer" class="btn-secondary-action">
+                <span>View GitHub Repos ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="skills-education-col">
+            <div class="info-card-box">
+              <h3><span>❖</span> Design &amp; Frontend Stack</h3>
+              <div class="skill-tags-cloud">
+                <span class="skill-pill highlight">Figma (Auto-Layout 5.0)</span>
+                <span class="skill-pill highlight">Design Systems &amp; Variables</span>
+                <span class="skill-pill highlight">React.js &amp; Next.js 14</span>
+                <span class="skill-pill highlight">Tailwind CSS</span>
+                <span class="skill-pill highlight">JavaScript (ES6+)</span>
+                <span class="skill-pill">User Research &amp; Personas</span>
+                <span class="skill-pill">Usability Testing</span>
+                <span class="skill-pill">Wireframing &amp; Prototyping</span>
+                <span class="skill-pill">WCAG AAA Accessibility</span>
+                <span class="skill-pill">HTML5 &amp; CSS3</span>
+              </div>
+            </div>
+
+            <div class="info-card-box">
+              <h3><span>⚡</span> Backend, DB &amp; Tools</h3>
+              <div class="skill-tags-cloud">
+                <span class="skill-pill highlight">Node.js &amp; Express.js</span>
+                <span class="skill-pill highlight">MongoDB &amp; Mongoose</span>
+                <span class="skill-pill">RESTful API Development</span>
+                <span class="skill-pill">NextAuth &bull; JWT Auth</span>
+                <span class="skill-pill">Git &amp; GitHub</span>
+                <span class="skill-pill">VS Code &bull; Vite &bull; npm</span>
+                <span class="skill-pill">C &bull; Python</span>
+                <span class="skill-pill">Arduino &bull; ESP32 &bull; IoT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         RECRUITER CONTACT SECTION
+         ==================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-box">
+          <div class="hero-status-tag" style="margin-bottom: 1.25rem;">
+            <span class="status-pulse-dot"></span>
+            <span>Let's talk opportunities</span>
+          </div>
+
+          <h2>Looking for a Product Designer who can also build?</h2>
+          <p>
+            Whether you are hiring for a Product Design role, a Frontend Engineering internship, or want to discuss a portfolio review, my inbox is open.
+          </p>
+
+          <div class="contact-channels-row">
+            <a href="mailto:vanshikabansal887@gmail.com" class="btn-primary-action">
+              <span>Send Email &rarr;</span>
+            </a>
+            <button class="btn-secondary-action copy-email-btn" id="btnCopyEmailFooter">
+              <span>📋 Copy: vanshikabansal887@gmail.com</span>
+            </button>
+            <a href="https://www.linkedin.com/in/vanshika-bansal-627602324/" target="_blank" rel="noopener noreferrer" class="btn-secondary-action">
+              <span>LinkedIn Profile ↗</span>
+            </a>
+            <a href="assets/Vanshika_Bansal_Resume.pdf" target="_blank" class="btn-secondary-action">
+              <span>Download Resume (PDF) ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================================
+       MAGAZINE-QUALITY CASE STUDY READER (DISTRACTION-FREE)
+       ==================================================================== -->
+  <div class="case-reader-overlay" id="caseReaderModal" role="dialog" aria-modal="true" aria-labelledby="readerProjectTitle">
+    <div class="case-reader-window">
+      <button class="reader-close-btn" id="readerCloseBtn" aria-label="Close Case Study">&times;</button>
+
+      <div class="reader-header">
+        <div class="reader-tagline" id="readerCategoryTag">Healthcare &bull; Accessibility</div>
+        <h2 class="reader-title" id="readerProjectTitle">Project Title</h2>
+        <p class="reader-one-liner" id="readerOneLiner">One-line strategic outcome...</p>
+
+        <!-- Metadata Strip for Recruiters -->
+        <div class="reader-meta-grid">
+          <div class="meta-field">
+            <div class="meta-label">My Role</div>
+            <div class="meta-val" id="readerRole">Product &amp; UI/UX Designer</div>
+          </div>
+          <div class="meta-field">
+            <div class="meta-label">Core Tools</div>
+            <div class="meta-val" id="readerTools">Figma, FigJam</div>
+          </div>
+          <div class="meta-field">
+            <div class="meta-label">Platforms</div>
+            <div class="meta-val" id="readerPlatforms">iOS &bull; Android</div>
+          </div>
+          <div class="meta-field">
+            <div class="meta-label">Key Metric</div>
+            <div class="meta-val" id="readerKeyMetric">+34% Retention</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reader-body">
+        <div class="reader-section-block">
+          <h3>01. The Problem &amp; Discovery</h3>
+          <p id="readerProblemText">Loading problem description...</p>
+        </div>
+
+        <div class="reader-section-block">
+          <h3>02. User Personas &amp; Insights</h3>
+          <p id="readerPersonaText">Loading user research...</p>
+        </div>
+
+        <div class="reader-section-block">
+          <h3>03. Key Architectural Solutions</h3>
+          <p id="readerSolutionText">Loading solution breakdown...</p>
+        </div>
+
+        <div class="reader-section-block">
+          <h3>04. Design Screens &amp; Walkthrough (Click to Zoom)</h3>
+          <div class="reader-gallery-grid" id="readerGallery">
+            <!-- Dynamically injected -->
+          </div>
+        </div>
+
+        <div style="padding-top: 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: gap;">
+          <a href="#contact" class="btn-primary-action" onclick="document.getElementById('caseReaderModal').classList.remove('active'); document.body.style.overflow='auto';">
+            <span>Discuss This Case Study With Vanshika &rarr;</span>
+          </a>
+          <button class="btn-secondary-action" onclick="document.getElementById('caseReaderModal').classList.remove('active'); document.body.style.overflow='auto';">
+            <span>Close Reader &times;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full Screen Lightbox -->
+  <div class="lightbox-modal" id="screenLightbox" role="dialog" aria-modal="true" aria-label="Screen Zoom Lightbox">
+    <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+    <div class="lightbox-inner-container">
+      <img src="" id="lightboxImage" alt="Full Resolution Design Screen">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-simple">
+    <div class="container">
+      <div class="footer-inner">
+        <div>&copy; 2026 Vanshika Bansal. Designed with craft &amp; code.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem;">
+          <a href="assets/Vanshika_Bansal_Resume.pdf" target="_blank" style="color: var(--text-secondary); text-decoration: none; margin-right: 1.25rem;">Resume (PDF)</a>
+          <a href="https://www.linkedin.com/in/vanshika-bansal-627602324/" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); text-decoration: none; margin-right: 1.25rem;">LinkedIn</a>
+          <a href="https://github.com/vanshika2205/CODING" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); text-decoration: none;">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
